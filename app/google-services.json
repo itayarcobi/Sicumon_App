@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014629534420",
+    "project_id": "sicumon-102f1",
+    "storage_bucket": "sicumon-102f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014629534420:android:0c17e66044fa547f7ac941",
+        "android_client_info": {
+          "package_name": "com.example.sicumon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014629534420-43hm80gcltdpqlqug4vecbbjbkvvk752.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWQ3_giBh_ZiuLN1mwKXm84MkccbNcG3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014629534420-43hm80gcltdpqlqug4vecbbjbkvvk752.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
