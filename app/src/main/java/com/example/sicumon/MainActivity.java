@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Sign_in.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), com.example.sicumon.Sign_in.class));
+                startActivity(new Intent(MainActivity.this, com.example.sicumon.Sign_in.class));
             }
         });
 

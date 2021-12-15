@@ -41,11 +41,36 @@ public class Sign_up extends AppCompatActivity {
                 String email_string = email.getText().toString();
                 String password_string = password.getText().toString();
 
+                //check if the edittexts are empty
                 if (TextUtils.isEmpty(first_name_string)) {
                     first_name.setError("מי אתה?");
                     return;
                 }
-
+                if (TextUtils.isEmpty(last_name_string)) {
+                    last_name.setError("משפחת?");
+                    return;
+                }
+                if (TextUtils.isEmpty(id_string)) {
+                    id.setError("ת.ז=תעודת זהות");
+                    return;
+                }
+                if (TextUtils.isEmpty(email_string)) {
+                    email.setError("מייל אוניברסטת אריאל");
+                    return;
+                }
+                if (TextUtils.isEmpty(password_string)) {
+                    password.setError("בחר סיסמא");
+                    return;
+                }
+                //check if the password is only digit
+                if(TextUtils.isDigitsOnly(password_string)){
+                    password.setError("שים גם אותיות");
+                    return;
+                }
+                if(first_name_string.length()<2 || last_name_string.length()<2 ){
+                    first_name.setError("יותר מתו אחד");
+                    return;
+                }
                 mAuth.createUserWithEmailAndPassword(email_string, password_string).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {

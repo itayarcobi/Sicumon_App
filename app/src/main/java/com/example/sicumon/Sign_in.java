@@ -16,7 +16,7 @@ public class Sign_in extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
         email=(EditText) findViewById(R.id.sign_in_email);
         password=(EditText) findViewById(R.id.sign_in_password);
-        mAuth=FirebaseAuth.getInstance();
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
 
     }

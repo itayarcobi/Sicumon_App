@@ -77,8 +77,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#F80606"
         android:ems="10"
+        android:hint="First name"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="191dp" />
 
@@ -88,8 +89,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#F80606"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="504dp" />
 
@@ -99,8 +101,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#F80606"
         android:ems="10"
+        android:hint="AU Email"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="419dp" />
 
@@ -110,8 +113,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#F80606"
         android:ems="10"
+        android:hint="id"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="343dp" />
 
@@ -135,8 +139,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#F80606"
         android:ems="10"
+        android:hint="Last name"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:minHeight="48dp"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="263dp" />
 
